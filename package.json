@@ -1,0 +1,166 @@
+{
+  "name": "badger-simulator",
+  "displayName": "Badger",
+  "description": "Build Badger badge apps in VS Code with a live 3D MicroPython emulator, examples, and direct USB disk upload.",
+  "version": "0.1.3",
+  "publisher": "badger",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other",
+    "Education"
+  ],
+  "keywords": [
+    "badger",
+    "badge",
+    "micropython",
+    "emulator",
+    "universe"
+  ],
+  "main": "./dist/extension.cjs",
+  "extensionKind": [
+    "ui"
+  ],
+  "activationEvents": [
+    "onWebviewPanel:badger.emulator"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": false,
+      "description": "The emulator runs Python from your workspace and can make browser HTTP requests."
+    },
+    "virtualWorkspaces": {
+      "supported": false
+    }
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "badger.open",
+        "title": "Badger: Open Emulator",
+        "icon": "$(device-mobile)"
+      },
+      {
+        "command": "badger.run",
+        "title": "Badger: Run App",
+        "icon": "$(play)"
+      },
+      {
+        "command": "badger.stop",
+        "title": "Badger: Stop Emulator",
+        "icon": "$(debug-stop)"
+      },
+      {
+        "command": "badger.reset",
+        "title": "Badger: Reset to Home Screen",
+        "icon": "$(debug-restart)"
+      },
+      {
+        "command": "badger.new",
+        "title": "Badger: New App",
+        "icon": "$(new-file)"
+      },
+      {
+        "command": "badger.openProject",
+        "title": "Badger: Open App Folder",
+        "icon": "$(folder-opened)"
+      },
+      {
+        "command": "badger.library",
+        "title": "Badger: Browse Apps and Examples",
+        "icon": "$(library)"
+      },
+      {
+        "command": "badger.connect",
+        "title": "Badger: Connect USB Disk",
+        "icon": "$(plug)"
+      },
+      {
+        "command": "badger.disconnect",
+        "title": "Badger: Disconnect USB Disk"
+      },
+      {
+        "command": "badger.upload",
+        "title": "Badger: Upload App",
+        "icon": "$(cloud-upload)"
+      },
+      {
+        "command": "badger.skill",
+        "title": "Badger: Get the Badge Skill",
+        "icon": "$(sparkle)"
+      },
+      {
+        "command": "badger.refreshBadge",
+        "title": "Badger: Refresh Badge Files",
+        "icon": "$(refresh)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "badger.open",
+          "when": "resourceExtname == .py",
+          "group": "navigation"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "badger.openProject",
+          "when": "explorerResourceIsFolder",
+          "group": "navigation"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "badger.run",
+        "key": "ctrl+alt+enter",
+        "mac": "cmd+alt+enter",
+        "when": "editorLangId == python || activeWebviewPanelId == badger.emulator"
+      }
+    ],
+    "configuration": {
+      "title": "Badger",
+      "properties": {
+        "badger.livePreview": {
+          "type": "boolean",
+          "default": true,
+          "description": "Restart the emulator after edits, including unsaved changes and external file changes."
+        },
+        "badger.previewDelay": {
+          "type": "number",
+          "default": 650,
+          "minimum": 100,
+          "maximum": 5000,
+          "description": "Delay in milliseconds before restarting the live preview."
+        },
+        "badger.skillUrl": {
+          "type": "string",
+          "default": "https://badger.github.io/build",
+          "description": "Download or setup URL for the Badger badge skill (hyb26-skill)."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "test:host": "node scripts/test-host.mjs",
+    "package": "vsce package --no-dependencies --allow-missing-repository --out badger-simulator-0.1.3.vsix",
+    "vscode:prepublish": "npm run check && npm run build"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/node": "^22.0.0",
+    "@types/three": "^0.186.0",
+    "@types/vscode": "^1.95.0",
+    "@vscode/vsce": "^3.0.0",
+    "esbuild": "^0.25.0",
+    "three": "^0.186.1",
+    "typescript": "^5.9.0"
+  },
+  "icon": "media/icon.png"
+}

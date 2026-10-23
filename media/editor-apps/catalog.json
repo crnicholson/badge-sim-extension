@@ -1,0 +1,676 @@
+{
+  "revision": "6cbc7e81dc7023ee66ad48f85ef33b635d87e360",
+  "launcher": {
+    "name": "menu",
+    "title": "Menu",
+    "files": [
+      "__init__.py",
+      "achievements.py",
+      "anim/badge.bin",
+      "anim/brattal.bin",
+      "anim/contacts.bin",
+      "anim/default.bin",
+      "anim/flappy_mona.bin",
+      "anim/iss.bin",
+      "anim/life.bin",
+      "anim/mass_storage.bin",
+      "anim/merge_conflict.bin",
+      "anim/mona_paint.bin",
+      "anim/mona_pet.bin",
+      "anim/pong.bin",
+      "anim/rogue.bin",
+      "anim/settings.bin",
+      "anim/show.bin",
+      "anim/snake.bin",
+      "app.py",
+      "awards/ascii-donut-small.png",
+      "awards/ascii-donut.png",
+      "awards/ascii-mona-small.png",
+      "awards/ascii-mona.png",
+      "awards/cab-small.png",
+      "awards/cab.png",
+      "awards/cabana-small.png",
+      "awards/cabana.png",
+      "awards/compass-needle.png",
+      "awards/compass-shadow.png",
+      "awards/compass.png",
+      "awards/diner-small.png",
+      "awards/diner.png",
+      "awards/frying-pan-small.png",
+      "awards/frying-pan.png",
+      "awards/keycap-small.png",
+      "awards/keycap.png",
+      "awards/up-arrow-small.png",
+      "awards/up-arrow.png",
+      "awards/vinyl-small.png",
+      "awards/vinyl.png",
+      "celebration.py",
+      "gallery.py",
+      "icons.py",
+      "mona_menu.p3d",
+      "mona.py",
+      "mona3d.py",
+      "opening.py",
+      "photos/ducky-profile.png",
+      "photos/ducky-quilt.png",
+      "photos/mona-centered.png",
+      "photos/mona-ducky-blue.png",
+      "photos/mona-quilt.png",
+      "photos/tiles/ducky-profile.png",
+      "photos/tiles/ducky-quilt.png",
+      "photos/tiles/mona-centered.png",
+      "photos/tiles/mona-ducky-blue.png",
+      "photos/tiles/mona-quilt.png",
+      "silhouettes.py",
+      "ui.py"
+    ],
+    "stock": [
+      "badge",
+      "brattal",
+      "contacts",
+      "flappy_mona",
+      "iss",
+      "life",
+      "mass_storage",
+      "merge_conflict",
+      "mona_paint",
+      "mona_pet",
+      "pong",
+      "rogue",
+      "settings",
+      "show",
+      "snake"
+    ]
+  },
+  "apps": [
+    {
+      "name": "30_minutes_to_alpha_centauri",
+      "title": "30 Minutes To Alpha Centauri",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/cargo.png",
+        "assets/game_over.png",
+        "assets/hud.png",
+        "assets/hyperion_bg.png",
+        "assets/hyperion_obst.png",
+        "assets/hyperion_wall.png",
+        "assets/intercom.png",
+        "assets/level_hyperion.png",
+        "assets/package_load.png",
+        "assets/player.png",
+        "assets/title.png",
+        "assets/win.png",
+        "cutscene.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "badge",
+      "title": "Badge",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "bee_amazed",
+      "title": "Bee Amazed",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/background.png",
+        "assets/bee-down.png",
+        "assets/bee-left.png",
+        "assets/bee-right.png",
+        "assets/bee-up.png",
+        "assets/flower.png",
+        "assets/hedge.png",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "brattal",
+      "title": "Brattal",
+      "files": [
+        "README.md",
+        "__init__.py"
+      ]
+    },
+    {
+      "name": "camera",
+      "title": "Camera",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/LICENSE-MDI.txt",
+        "assets/NOTICE.txt",
+        "assets/camera-wireless.png",
+        "assets/camera-wireless.svg",
+        "assets/camera.svg",
+        "assets/mona.png",
+        "camera_ble.py",
+        "camera_core.py",
+        "camera_launcher_icon.py",
+        "camera_pairing.py",
+        "icon.png",
+        "screenshot.png"
+      ]
+    },
+    {
+      "name": "clock",
+      "title": "Clock",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/digital_dots.png",
+        "assets/digital_dots_invert.png",
+        "assets/digital_num.png",
+        "assets/digital_num_invert.png",
+        "assets/icons.png",
+        "assets/nixie_bg.png",
+        "assets/nixie_fg.png",
+        "assets/nixie_num.png",
+        "daylightsaving.py",
+        "icon.png",
+        "usermessage.py"
+      ]
+    },
+    {
+      "name": "commits",
+      "title": "Commits",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "contacts",
+      "title": "Contacts",
+      "files": [
+        "README.md",
+        "__init__.py"
+      ]
+    },
+    {
+      "name": "Copilot",
+      "title": "Copilot",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/LICENSE.txt",
+        "assets/attention-00.png",
+        "assets/attention-01.png",
+        "assets/attention-02.png",
+        "assets/attention-03.png",
+        "assets/attention-04.png",
+        "assets/attention-05.png",
+        "assets/attention-06.png",
+        "assets/attention-07.png",
+        "assets/attention-08.png",
+        "assets/attention-09.png",
+        "assets/attention-10.png",
+        "assets/attention-11.png",
+        "assets/blink-1.png",
+        "assets/blink-2.png",
+        "assets/blink-3.png",
+        "assets/blink-4.png",
+        "assets/complete-00.png",
+        "assets/complete-01.png",
+        "assets/complete-02.png",
+        "assets/complete-03.png",
+        "assets/complete-04.png",
+        "assets/complete-05.png",
+        "assets/complete-06.png",
+        "assets/complete-07.png",
+        "assets/complete-08.png",
+        "assets/complete-09.png",
+        "assets/complete-10.png",
+        "assets/complete-11.png",
+        "assets/down-00.png",
+        "assets/down-01.png",
+        "assets/down-02.png",
+        "assets/down-03.png",
+        "assets/down-04.png",
+        "assets/down-05.png",
+        "assets/down-06.png",
+        "assets/down-07.png",
+        "assets/down-08.png",
+        "assets/down-09.png",
+        "assets/down-10.png",
+        "assets/down-11.png",
+        "assets/left-00.png",
+        "assets/left-01.png",
+        "assets/left-02.png",
+        "assets/left-03.png",
+        "assets/left-04.png",
+        "assets/left-05.png",
+        "assets/left-06.png",
+        "assets/left-07.png",
+        "assets/left-08.png",
+        "assets/left-09.png",
+        "assets/left-10.png",
+        "assets/left-11.png",
+        "assets/neutral.png",
+        "assets/right-00.png",
+        "assets/right-01.png",
+        "assets/right-02.png",
+        "assets/right-03.png",
+        "assets/right-04.png",
+        "assets/right-05.png",
+        "assets/right-06.png",
+        "assets/right-07.png",
+        "assets/right-08.png",
+        "assets/right-09.png",
+        "assets/right-10.png",
+        "assets/right-11.png",
+        "assets/sources.json",
+        "assets/surprise-00.png",
+        "assets/surprise-01.png",
+        "assets/surprise-02.png",
+        "assets/surprise-03.png",
+        "assets/surprise-04.png",
+        "assets/surprise-05.png",
+        "assets/surprise-06.png",
+        "assets/surprise-07.png",
+        "assets/surprise-08.png",
+        "assets/surprise-09.png",
+        "assets/surprise-10.png",
+        "assets/surprise-11.png",
+        "assets/up-00.png",
+        "assets/up-01.png",
+        "assets/up-02.png",
+        "assets/up-03.png",
+        "assets/up-04.png",
+        "assets/up-05.png",
+        "assets/up-06.png",
+        "assets/up-07.png",
+        "assets/up-08.png",
+        "assets/up-09.png",
+        "assets/up-10.png",
+        "assets/up-11.png",
+        "assets/working-00.png",
+        "assets/working-01.png",
+        "assets/working-02.png",
+        "assets/working-03.png",
+        "assets/working-04.png",
+        "assets/working-05.png",
+        "assets/working-06.png",
+        "assets/working-07.png",
+        "assets/working-08.png",
+        "assets/working-09.png",
+        "assets/working-10.png",
+        "assets/working-11.png",
+        "copilot_monitor.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "demos",
+      "title": "Demos",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "demos/__init__.py",
+        "demos/blur.py",
+        "demos/blur_brush.py",
+        "demos/circles.py",
+        "demos/dither.py",
+        "demos/erase_brush.py",
+        "demos/fill_rules.py",
+        "demos/gradient.py",
+        "demos/image_brush.py",
+        "demos/intersect.py",
+        "demos/joins_caps.py",
+        "demos/lighten_darken.py",
+        "demos/line_clip.py",
+        "demos/lines.py",
+        "demos/pattern.py",
+        "demos/pixelate.py",
+        "demos/raycast.py",
+        "demos/shape.py",
+        "demos/sprites.py",
+        "demos/stroke.py",
+        "demos/text.py",
+        "demos/text_align.py",
+        "demos/transform_sprite.py",
+        "demos/triangles.py",
+        "demos/vector_shapes.py",
+        "demos/vector_text.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "extend_a_squirrel",
+      "title": "Extend A Squirrel",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/acorn10.png",
+        "assets/acorn15.png",
+        "assets/acorn_multi.png",
+        "assets/bg.png",
+        "assets/gameover.png",
+        "assets/sqirl.png",
+        "assets/title.png",
+        "draw_tufty.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "flappy",
+      "title": "Flappy",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/background.png",
+        "assets/cloud.png",
+        "assets/grass.png",
+        "assets/mona.png",
+        "assets/obstacles.png",
+        "icon.png",
+        "mona.py",
+        "obstacle.py"
+      ]
+    },
+    {
+      "name": "flappy_mona",
+      "title": "Flappy Mona",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/background.png",
+        "assets/cloud.png",
+        "assets/grass.png",
+        "assets/mona.png",
+        "assets/obstacles.png",
+        "mona.py",
+        "obstacle.py"
+      ]
+    },
+    {
+      "name": "gallery",
+      "title": "Gallery",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png",
+        "images/duck.png"
+      ]
+    },
+    {
+      "name": "ghost_signal",
+      "title": "Ghost Signal",
+      "files": [
+        "README.md",
+        "__init__.py"
+      ]
+    },
+    {
+      "name": "hydrate",
+      "title": "Hydrate",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "input_test",
+      "title": "Input Test",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "iss",
+      "title": "Iss",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "world.geo.json"
+      ]
+    },
+    {
+      "name": "life",
+      "title": "Life",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "mass_storage",
+      "title": "Mass Storage",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "merge_conflict",
+      "title": "Merge Conflict",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "games.py",
+        "mona-code.png",
+        "mona-dance.png",
+        "mona-dead.png",
+        "mona-default.png",
+        "mona-eating.png",
+        "mona-heart.png",
+        "mona-notify.png",
+        "replay.py",
+        "ui.py"
+      ]
+    },
+    {
+      "name": "mona_paint",
+      "title": "Mona Paint",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "ui.py"
+      ]
+    },
+    {
+      "name": "mona_pet",
+      "title": "Mona Pet",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/background/background_day.png",
+        "assets/background/background_dusk.png",
+        "assets/background/background_night.png",
+        "assets/mona-sprites/mona-code.png",
+        "assets/mona-sprites/mona-dance.png",
+        "assets/mona-sprites/mona-dead.png",
+        "assets/mona-sprites/mona-default.png",
+        "assets/mona-sprites/mona-eating.png",
+        "assets/mona-sprites/mona-heart.png",
+        "assets/mona-sprites/mona-love.png",
+        "assets/mona-sprites/mona-notify.png",
+        "assets/mona-sprites/mona-sleep.png",
+        "assets/ui/buttons.png",
+        "assets/ui/frame.png",
+        "clock.py",
+        "food.py",
+        "icons.py",
+        "match.py",
+        "tufty.py",
+        "ui.py"
+      ]
+    },
+    {
+      "name": "monapet",
+      "title": "Monapet",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/arrows.png",
+        "assets/icons.png",
+        "assets/mona-sprites/mona-code.png",
+        "assets/mona-sprites/mona-dance.png",
+        "assets/mona-sprites/mona-dead.png",
+        "assets/mona-sprites/mona-default.png",
+        "assets/mona-sprites/mona-eating.png",
+        "assets/mona-sprites/mona-heart.png",
+        "assets/mona-sprites/mona-love.png",
+        "assets/mona-sprites/mona-notify.png",
+        "assets/portrait.png",
+        "icon.png",
+        "mona.py",
+        "ui.py"
+      ]
+    },
+    {
+      "name": "plucky_cluck",
+      "title": "Plucky Cluck",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/background.png",
+        "assets/chicken.png",
+        "assets/cloud.png",
+        "assets/grass.png",
+        "assets/obstacles.png",
+        "chicken.py",
+        "icon.png",
+        "obstacle.py"
+      ]
+    },
+    {
+      "name": "pong",
+      "title": "Pong",
+      "files": [
+        "README.md",
+        "__init__.py"
+      ]
+    },
+    {
+      "name": "rogue",
+      "title": "Rogue",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "build.py",
+        "content.py",
+        "game.py",
+        "items.py",
+        "monsters.py",
+        "render.py",
+        "rings.py",
+        "save.py",
+        "scrolls.py",
+        "world.py"
+      ]
+    },
+    {
+      "name": "sense",
+      "title": "Sense",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "settings",
+      "title": "Settings",
+      "files": [
+        "README.md",
+        "__init__.py"
+      ]
+    },
+    {
+      "name": "show",
+      "title": "Show",
+      "files": [
+        "README.md",
+        "__init__.py"
+      ]
+    },
+    {
+      "name": "sketchy_sketch",
+      "title": "Sketchy Sketch",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/nope.ppf",
+        "icon.png",
+        "ui.py"
+      ]
+    },
+    {
+      "name": "snake",
+      "title": "Snake",
+      "files": [
+        "README.md",
+        "__init__.py"
+      ]
+    },
+    {
+      "name": "snarky_sciuridae",
+      "title": "Snarky Sciuridae",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "assets/background/background_day.png",
+        "assets/background/background_dusk.png",
+        "assets/background/background_night.png",
+        "assets/squirrel-sprites/clean.png",
+        "assets/squirrel-sprites/dance.png",
+        "assets/squirrel-sprites/dead.png",
+        "assets/squirrel-sprites/dig.png",
+        "assets/squirrel-sprites/eat.png",
+        "assets/squirrel-sprites/idle.png",
+        "assets/squirrel-sprites/lick.png",
+        "assets/squirrel-sprites/notify.png",
+        "assets/squirrel-sprites/run.png",
+        "assets/squirrel-sprites/sleep.png",
+        "assets/squirrel-sprites/tail.png",
+        "assets/ui/buttons_48x14.png",
+        "assets/ui/icons.png",
+        "assets/ui/overlay_scanlines.png",
+        "assets/ui/tufty_frame_beige.png",
+        "icon.png",
+        "ui.py",
+        "vpet.py"
+      ]
+    },
+    {
+      "name": "system",
+      "title": "System",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "tennis",
+      "title": "Tennis",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    },
+    {
+      "name": "tomato",
+      "title": "Tomato",
+      "files": [
+        "README.md",
+        "__init__.py",
+        "icon.png"
+      ]
+    }
+  ]
+}
